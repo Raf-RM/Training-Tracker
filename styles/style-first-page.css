@@ -1,33 +1,12 @@
 @import url(style.css);
 
-header{
-    display: grid;
-
-    background-color: black;
-    color: aliceblue;
-
-    height: 8rem;
-    width: 100%;
-
-    padding: 1rem 2rem;
-
-    & h1{
-        justify-self: center;
-    }
-}
-
-nav ul{
-    display: flex;
-    justify-content: space-between;
-}
-
 main{
     padding: 1rem;
 }
 
 .meu-treino{
-
-    border: 2px solid rgb(252, 198, 4);
+    
+    background-color: #FFB612;
     border-radius: 8px;
 
     height: 4rem;

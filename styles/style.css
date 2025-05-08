@@ -12,9 +12,35 @@
     --text-primary:#07D962;
     --text-secondary:#07D962;
 
-    --surface-primary:#18171b;
-    --surface-body:#1d1a2b;
+    --surface-primary:#e2e8f0;
     --surface-secondary:#5E3FA6;
-    --surface-tertiary:#422c75;
+    --surface-tertiary:#FFB612;
 
+}
+
+header{
+    display: grid;
+
+    background-color: black;
+    color: #e2e8f0;
+
+    height: 8rem;
+    width: 100%;
+
+    padding: 1rem 2rem;
+
+    & h1{
+        justify-self: center;
+    }
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+    & li a {
+        color: #e2e8f0;
+        text-decoration: none;
+    }
 }
